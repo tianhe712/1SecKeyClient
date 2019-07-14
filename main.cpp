@@ -38,7 +38,7 @@ int main() {
     strcpy(info.clientId, "0001");
     strcpy(info.serverId, "1111");
     strcpy(info.authCode, "1111");
-    strcpy(info.serverIp, "192.168.81.45");
+    strcpy(info.serverIp, "192.168.85.130");
     info.serverPort = 10086;
     info.maxNode = 1;
     info.shmKey = 0x11;
@@ -110,6 +110,6 @@ int main() {
 
 
 //	system("pause");
-    std::cout << "Hello, 项目初始化完成World!" << std::endl;
+    std::cout << "Hello, 客户端开始World!" << std::endl;
     return 0;
 }
